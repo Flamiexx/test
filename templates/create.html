@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create note</title>
+</head>
+<body>
+    <h1>create note</h1>
+    <form method="POST">
+        <textarea name="content" rows="4" cols="50" required></textarea><br>
+        <input type="submit" value="Create">
+    </form>
+    <a href="{{ url_for('index') }}">Back to main page</a>
+</body>
+</html>
